@@ -10,6 +10,7 @@ import android.graphics.Paint;
 import android.graphics.PixelFormat;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.Nullable;
 
 /**
  * Created by fulushan on 18/4/5.
@@ -52,6 +53,16 @@ public class WaterMarkBg extends Drawable {
         }
     }
 
+    @Override
+    public void setAlpha(int alpha) {
+
+    }
+
+    @Override
+    public void setColorFilter(@Nullable ColorFilter colorFilter) {
+
+    }
+
     private static Bitmap rotate(Bitmap b, int degrees) {
         if (degrees == 0) {
             return b;
@@ -69,16 +80,6 @@ public class WaterMarkBg extends Drawable {
             }
         }
         return b;
-    }
-
-    @Override
-    public void setAlpha(int alpha) {
-
-    }
-
-    @Override
-    public void setColorFilter(ColorFilter colorFilter) {
-
     }
 
     @Override
