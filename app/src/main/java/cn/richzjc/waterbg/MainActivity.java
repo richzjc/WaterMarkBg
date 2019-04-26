@@ -2,7 +2,8 @@ package cn.richzjc.waterbg;
 
 import android.app.Activity;
 import android.os.Bundle;
-import cn.richzjc.waterbg.view.WaterMarkBg;
+
+import com.richzjc.library.WaterMarkBg;
 
 public class MainActivity extends Activity {
     @Override
