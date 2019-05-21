@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">watermark-android</string>
+
+    <string name="replace">and</string>
 </resources>
